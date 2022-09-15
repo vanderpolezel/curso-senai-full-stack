@@ -1,0 +1,15 @@
+.formulario {
+    display: flex;
+    padding: 2rem;
+    margin: 2rem;
+    justify-content: space-between;    
+}
+
+.conteudo__formulario {
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.formulario__login {
+    padding: 2rem;
+}
