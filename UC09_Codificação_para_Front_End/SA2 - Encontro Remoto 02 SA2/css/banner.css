@@ -1,0 +1,10 @@
+.banner img {
+    height: calc(100vh - 480px);
+    width: 100%;
+    /* background: url('../img/banner.jpg') no-repeat center / cover; */
+   /*  background-image: url('../../img/banner.jpg'); */
+    background-position: center;  /* a imagem fique centralida ao centro  */
+    background-repeat: no-repeat;  /* não repetir  */
+    background-size: cover;  /* cobrir todo tamanho  */ 
+}
+

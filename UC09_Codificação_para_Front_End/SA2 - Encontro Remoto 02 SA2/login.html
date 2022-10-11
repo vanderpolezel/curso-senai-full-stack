@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Senai</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__busca">
+            <a href="index.html"><img src="img/logo.png" alt="Imagem do logotipo do Site"></a>             
+            <input  class="pesquisa" type = "text" name="search" id="search" placeholder = "Faça sua Busca"> 
+            <a href="login.html"> <img  src="img/login.png" alt="Imagem do login">Faça seu login ou <br> crie sua conta </a>    
+            <a href="#"><img src="img/sac.png" alt=""></a>
+            <a href="#"><img src="img/favorite.png" alt=""></a>
+            <a href="#"><img  src="img/shopping-cart.png" alt=""></a>        
+        </div>
+  
+          
+            <nav class="cabecalho__menu">
+                    <ul class="menu__lista">
+                        <li class="menu__item"><a class="menu__link menu__principal ativo" href="#">Todos os departamentos</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Lançamentos</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Destaques</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Jogos</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Ofertas do Dia</a></li>
+                    </ul>
+            </nav>       
+    </header>   
+    
+    <section class="formularios">
+        <form action="" class="formulario">
+            
+            <div class="formulario__login">
+                <h1>Já tenho Cadastro</h1><br>
+                <label for="senha">E-mail, CPF ou CNPJ*</label><br>
+                <input type="email" id="email" name="email" maxlength="40" required autocomplete><br>
+                <label for="senha">Senha*</label><br>
+                <input type="password" id="senha" name="senha"><br> 
+                <button>Entrar</button>
+            </div>
+            
+            <div class="formulario__cadastro"> 
+                <h1>Quero me Cadastrar</h1><br>
+                <input type="email" name="" id="" placeholder="E-mail*"><br>
+                <input type="password" name="" id="" placeholder="Crie sua senha*"><br>
+                <input type="password" name="" id="" placeholder="Confirme sua senha*"><br>
+                <input type="text" placeholder="CPF ou CNPJ"> <br>
+                <input type="text" placeholder="CEP*"><br>
+                <button>Cadastrar</button>
+            </div>
+
+        </form>        
+    </section>
+    
+    <footer class="rodape">
+        <img src="img/logo.png" alt="">
+        <div>
+            <h4>CONTATOS</h4>
+            <p>jogosgamer@email.com</p>
+            <p>(11)99999.9999</p>
+        </div>
+        <div>
+            <h4>CONTATOS</h4>
+            <p>jogosgamer@email.com</p>
+            <p>(11)99999.9999</p>
+        </div>
+        <div>
+            <h4>SIGA NOSSAS REDES SOCIASI</h4>
+            <br>
+            <img src="img/redes_socias.jpg" alt="">
+        </div>     
+    </footer>
