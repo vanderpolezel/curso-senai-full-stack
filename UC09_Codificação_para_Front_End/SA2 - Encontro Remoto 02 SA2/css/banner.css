@@ -6,5 +6,7 @@
     background-position: center;  /* a imagem fique centralida ao centro  */
     background-repeat: no-repeat;  /* não repetir  */
     background-size: cover;  /* cobrir todo tamanho  */ 
-}
+    /* object-fit: cover; */
+    /* object-position: 0% 80%;
+} */
 
