@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Senai</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="cabecalho">
+
+        <div class="cabecalho__busca">
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>             
+            <input  class="pesquisa" type = "text" name="search" id="search" placeholder = "Faça sua Busca"> 
+            <a href="login.html"> <img  src="img/login.png" alt="imagem do login">Faça seu login ou <br> crie sua conta </a>    
+            <a href="#"> <img src="img/sac.png" alt=""> </a>
+            <a href="#"> <img src="img/favorite.png" alt=""> </a>
+            <a href="#"> <img  src="img/shopping-cart.png" alt=""> </a>        
+        </div>
+  
+          
+            <!-- <nav class="cabecalho__menu">
+                    <ul class="menu__lista">
+                        <li class="menu__item"><a class="menu__link menu__principal ativo" href="#">Todos os departamentos</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Lançamentos</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Destaques</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Jogos</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Ofertas do Dia</a></li>
+                    </ul>
+            </nav> -->
+
+            <nav class="cabecalho__menu navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Lançamentos</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end "  id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Destaques <span class="sr-only">(Página atual)</span></a>
+                    <a class="nav-item nav-link" href="#">Jogos</a>
+                    <a class="nav-item nav-link" href="#">Ofertas do Dia</a>
+                  </div>
+                </div>
+              </nav>
+       
+    </header>   
+<!-- 
+    <section class="banner">
+        <img  src="img/banner.jpg" alt="banner">
+    </section> -->
+
+    <div id="carouselExampleIndicators" class="carousel slide banner" data-ride="carousel" data-interval="2000">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/banner.jpg" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/carrossel_02.jpg" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/carrossel_03.jpg" alt="Terceiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/carrossel_04.jpg" alt="Quarta Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+
+
+
+    <section class="jogos">
+        <div class="jogo">
+            <img class="jogos__imagem" src="img/gta-v.jpg" alt="Foto do Jogo GTA-V">
+            <div class="jogo__conteudo">
+                <h4 class="jogo__titulo">GTA-V</h4>
+                <p class="jogo__descricao"> Jogo de aventura</p>
+                <p class="jogo_preco">R$ 9,99</p>
+                <button class="jogo__botao">Comprar </button>
+            </div>
+        </div>    
+
+        <div class="jogo">
+            <img class="jogos__imagem" src="img/fortnite.jpg" alt="Foto do Jogo Fortnite">
+            <div class="jogo__conteudo">
+                <h4 class="jogo__titulo"> FORTNITE</h4>
+                <p class="jogo__descricao"> Jogo clássico</p>
+                <p class="jogo_preco"> R$ 9,99</p>
+                <button class="jogo__botao">Comprar</button>
+            </div>
+        </div>
+
+        <div class="jogo">
+            <img class="jogos__imagem" src="img/cs-go.jpg" alt="Foto do Jogo CSS">
+            <div class="jogo__conteudo">
+                <h4 class="jogo__titulo"> CSS</h4>
+                <p class="jogo__descricao"> Jogo clássico</p>
+                <p class="jogo_preco"> R$ 9,99</p>
+                <button class="jogo__botao">Comprar</button>
+            </div>
+        </div>
+
+        <div class="jogo">
+            <img class="jogos__imagem" src="img/free-fire.jpg" alt="Foto do Jogo Fortnite">
+            <div class="jogo__conteudo">
+                <h4 class="jogo__titulo"> FREE-FIRE</h4>
+                <p class="jogo__descricao"> Jogo clássico</p>
+                <p class="jogo_preco"> R$ 9,99</p>
+                <button class="jogo__botao">Comprar</button>
+            </div>
+        </div>
+
+
+        <div class="jogo">
+            <img class="jogos__imagem" src="img/mario-kart.jpg" alt="Foto do Jogo Fortnite">
+            <div class="jogo__conteudo">
+                <h4 class="jogo__titulo"> MARIO KART</h4>
+                <p class="jogo__descricao"> Jogo clássico</p>
+                <p class="jogo_preco"> R$ 9,99</p>
+                <button class="jogo__botao">Comprar</button></a>
+            </div>
+        </div>
+
+
+        <div class="jogo">
+            <img class="jogos__imagem" src="img/thesims4.png" alt="Foto do Jogo Fortnite">
+            <div class="jogo__conteudo">
+                <h4 class="jogo__titulo"> THE SIMENS</h4>
+                <p class="jogo__descricao"> Jogo clássico</p>
+                <p class="jogo_preco"> R$ 9,99</p>
+                <button class="jogo__botao">Comprar</button>
+            </div>
+        </div>
+
+        <div class="jogo">
+            <img class="jogos__imagem" src="img/nba2k19.png" alt="Foto do Jogo Fortnite">
+            <div class="jogo__conteudo">
+                <h4 class="jogo__titulo"> NBA 2K</h4>
+                <p class="jogo__descricao"> Jogo clássico</p>
+                <p class="jogo_preco"> R$ 9,99</p>
+                <button class="jogo__botao">Comprar</button>
+            </div>
+        </div>
+
+        <div class="jogo">
+            <img class="jogos__imagem" src="img/pubg.jpg" alt="Foto do Jogo Fortnite">
+            <div class="jogo__conteudo">
+                <h4 class="jogo__titulo"> PUBG</h4>
+                <p class="jogo__descricao"> Jogo clássico</p>
+                <p class="jogo_preco"> R$ 9,99</p>
+                <button class="jogo__botao">Comprar</button>
+            </div>
+        </div>
+
+
+        
+        <div class="jogo">
+            <img class="jogos__imagem" src="img/mario-kart.jpg" alt="Foto do Jogo Fortnite">
+            <div class="jogo__conteudo">
+                <h4 class="jogo__titulo"> MARIO KART</h4>
+                <p class="jogo__descricao"> Jogo clássico</p>
+                <p class="jogo_preco"> R$ 9,99</p>
+                <button class="jogo__botao">Comprar</button>
+            </div>
+        </div>
+
+
+        <div class="jogo">
+            <img class="jogos__imagem" src="img/thesims4.png" alt="Foto do Jogo Fortnite">
+            <div class="jogo__conteudo">
+                <h4 class="jogo__titulo"> THE SIMENS</h4>
+                <p class="jogo__descricao"> Jogo clássico</p>
+                <p class="jogo_preco"> R$ 9,99</p>
+                </a><button class="jogo__botao">Comprar</button>
+            </div>
+        </div>
+
+        <div class="jogo">
+            <img class="jogos__imagem" src="img/nba2k19.png" alt="Foto do Jogo Fortnite">
+            <div class="jogo__conteudo">
+                <h4 class="jogo__titulo"> NBA 2K</h4>
+                <p class="jogo__descricao"> Jogo clássico</p>
+                <p class="jogo_preco"> R$ 9,99</p>
+                <button class="jogo__botao">Comprar</button>
+            </div>
+        </div>
+
+        <div class="jogo">
+            <img class="jogos__imagem" src="img/pubg.jpg" alt="Foto do Jogo Fortnite">
+            <div class="jogo__conteudo">
+                <h4 class="jogo__titulo"> PUBG</h4>
+                <p class="jogo__descricao"> Jogo clássico</p>
+                <p class="jogo_preco"> R$ 9,99</p>
+                <button class="jogo__botao">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <img src="img/logo.png" alt="">
+
+        <div>
+            <h4>CONTATOS</h4>
+            <p>jogosgamer@email.com</p>
+            <p>(11)99999.9999</p>
+        </div>
+
+        <div>
+            <h4>CONTATOS</h4>
+            <p>jogosgamer@email.com</p>
+            <p>(11)99999.9999</p>
+        </div>
+
+
+        <div>
+            <h4>SIGA NOSSAS REDES SOCIASI</h4>
+            <br>
+            <img src="img/redes_socias.png" alt="">
+        </div>
+
+        <form action="">
+            <input id="campo-email" type="email" placeholder="E-mail" required>
+            <button onclick="cadastrarNewsletter()">Cadastrar</button>                
+        </form>
+        
+
+    </footer>      
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
