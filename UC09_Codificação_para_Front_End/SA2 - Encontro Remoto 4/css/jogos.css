@@ -1,0 +1,51 @@
+.jogos {
+    display: flex;
+    margin: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.jogo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;    
+}
+
+
+.jogos__imagem {
+    height: 200px; 
+    width: 250px;
+    display: block;
+}
+
+
+.jogo__conteudo {
+    align-content: center;
+    padding: 2rem;
+    display: block;
+    margin-bottom: 0.1em;
+}
+
+
+.jogo__titulo {
+    align-items: center;
+    display: block;
+    margin-bottom: 0.1em;
+}
+
+
+.jogo__botao {
+    background-color: #FA624D ;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+
