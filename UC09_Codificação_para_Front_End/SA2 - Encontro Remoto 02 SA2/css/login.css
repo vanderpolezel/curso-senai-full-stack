@@ -14,11 +14,21 @@
     padding: 2rem;
 }
 
-#myPassword {
-    width: 180px;
+
+#email {
+    width: 200px;
     padding-right: 20px;
+  }  
+  
+
+
+#myPassword {
+    width: 200px;
+    padding-right: 20px;
+    margin-bottom: 1rem;
   }
   
+
   .olho {
     cursor: pointer;
     left: 270px;
