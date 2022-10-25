@@ -7,6 +7,10 @@ import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component'
 import { RodapeComponent } from './componentes/rodape/rodape.component';
 import { BannerCarrosselComponent } from './componentes/banner/banner-carrossel/banner-carrossel.component';
 import { ListaJogosComponent } from './componentes/jogos/lista-jogos/lista-jogos.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { LoginComponent } from './componentes/login/login.component';
+
+
 
 @NgModule({
   declarations: [
@@ -14,11 +18,13 @@ import { ListaJogosComponent } from './componentes/jogos/lista-jogos/lista-jogos
     CabecalhoComponent,
     RodapeComponent,
     BannerCarrosselComponent,
-    ListaJogosComponent
+    ListaJogosComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
