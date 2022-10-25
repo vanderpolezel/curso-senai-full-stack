@@ -1,3 +1,5 @@
+console.log("ola Mundo!!!")
+
 function cadastrarNewsletter() {
     let email = document.getElementById("campo-email").value
 
