@@ -9,6 +9,7 @@ import { BannerCarrosselComponent } from './componentes/banner/banner-carrossel/
 import { ListaJogosComponent } from './componentes/jogos/lista-jogos/lista-jogos.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LoginComponent } from './componentes/login/login.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -24,7 +25,8 @@ import { LoginComponent } from './componentes/login/login.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
