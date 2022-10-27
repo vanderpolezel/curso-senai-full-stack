@@ -4,9 +4,9 @@
         <div class="formulario__login">
             <h1>Já tenho Cadastro</h1><br>
             <label for="email">E-mail, CPF ou CNPJ*</label><br>
-            <input type="email" id="email" name="email" maxlength="40" required autocomplete placeholder="Ex.: email@email.com"[(ngModel)="userModel.email"]><br>
+            <input type="email" id="email" name="email" maxlength="40" required autocomplete placeholder="Ex.: email@email.com" [(ngModel)]="userModel.email"><br>
             <label for="senha">Senha*</label><br>
-            <input type="password" id="password" name="password" placeholder="Sua senha aqui.." [(ngModel)="userModel.password">
+            <input type="password" id="password" name="password" placeholder="Sua senha aqui.." [(ngModel)]="userModel.password" >
             <img src="../../../assets/img/olho.png" onclick="mouseoverPass();" onmouseout="mouseoutPass();"  id="olho" class="olho"/>
             <br> 
             <button>Entrar</button>
