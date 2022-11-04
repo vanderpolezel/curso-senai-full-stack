@@ -1,3 +1,4 @@
+import { LoginService } from './../../services/login.service';
 import { User } from './../../model/user';
 import { Component, OnInit } from '@angular/core';
 
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  constructor(private LoginService: LoginService) { }
  
   ngOnInit(): void {
   }  
@@ -18,8 +19,12 @@ export class LoginComponent implements OnInit {
 
   receberDados() {
     console.log(this.userModel)
-    alert(this.userModel.email)
-    alert(this.userModel.password)
+    // alert(this.userModel.email)
+    // alert(this.userModel.password)
+
+    this.LoginService.login(this.userModel).subscribe( (response) => {
+      
+    } )
 
   }
 
