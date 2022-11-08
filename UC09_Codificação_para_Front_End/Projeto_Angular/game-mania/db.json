@@ -1,77 +1,10 @@
 {
-  "user": [
+  "users": [
     {
-      "e-mail": "vander@email.com",
-      "password": "senhadovander",
-      "nome": "Vander",
+      "email": "vander@email.com",
+      "password": "$2a$10$oQ47Q7QulN/V/eqda8jW8umwFtecnjdI0XMA4IVMqea6logPo36Di",
+      "nome": "Vander ",
       "id": 1
-    },
-    {
-      "nome": "Vander",
-      "e-mail": "vander@email.com",
-      "password": "senhadovander",
-      "id": 2
-    },
-    {
-      "nome": "Vander",
-      "e-mail": "vander@email.com",
-      "password": "senhadovander",
-      "id": 3
-    },
-    {
-      "id": 4
-    },
-    {
-      "nome": "Vander",
-      "e-mail": "vander@email.com",
-      "password": "senhadovander",
-      "id": 5
-    },
-    {
-      "nome": "Vander",
-      "e-mail": "vander@email.com",
-      "password": "senhadovander",
-      "id": 6
-    },
-    {
-      "nome": "Vander",
-      "password": "senhadovander",
-      "id": 7
-    },
-    {
-      "nome": "Vander",
-      "password": "senhadovander",
-      "id": 8
-    },
-    {
-      "nome": "Vander",
-      "email": "vander@email.com",
-      "password": "senhadovander",
-      "id": 9
-    },
-    {
-      "nome": "Vander",
-      "email": "vander@email.com",
-      "password": "senhadovander",
-      "id": 10
-    },
-    {
-      "nome": "Vander",
-      "email": "vander@email.com",
-      "password": "senhadovander",
-      "id": 11
-    },
-    {
-      "nome": "Vander",
-      "email": "vander@email.com",
-      "password": "senhadovander",
-      "id": 12
-    },
-    {
-      "nome": "Vander",
-      "email": "vander@email.com",
-      "password": "senhadovander",
-      "id": 13
     }
   ]
 }
