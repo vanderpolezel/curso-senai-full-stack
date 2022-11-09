@@ -1,24 +1,32 @@
 .formulario {
-    display: flex;
-    padding: 2rem;
-    margin: 2rem;
-    justify-content: space-between;    
+    display: flex;   
 }
 
-.conteudo__formulario {
+.formulario__login{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6rem;
+  /* justify-content: space-between; */
+}
+
+input {
+  width: 400px;
+}
+
+/* .conteudo__formulario {
     padding: 1rem;
-    margin: 2rem;
+    /* margin: 2rem;
 }
+ */
 
-.formulario__login {
-    padding: 2rem;
-}
 
-#myPassword {
+/* #myPassword {
     width: 182px;
     padding-right: 20px;
     margin-bottom: 2rem;
-  }
+  } */
   
   .olho {
     cursor: pointer;
@@ -29,6 +37,44 @@
 
   .titulo {
     color: #FA624D;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-size: 2rem;
   }
 
-  
+  .botao {
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+    background-color: #FA624D;
+    border-color: transparent;
+    padding: auto 10rem auto 10rem;
+    align-self: center;
+    font-size: 20px;
+  } 
+
+  .botao:hover {
+    background-color: #fa674de8;
+    color: rgba(255, 255, 255, 0.836);
+  }
+
+
+  #mensagem {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: auto;
+    font-weight: bold;
+    border: none;
+
+  } 
+
+  .paragrafo {
+    margin-bottom: auto;
+  }
+
+
+  .secundario {
+    margin-bottom: 20px;
+    align-items: center;
+    align-content: center;
+
+  }

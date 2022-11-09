@@ -11,6 +11,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LoginComponent } from './componentes/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule} from "@angular/common/http";
+import { CadastroComponent } from './componentes/cadastro/cadastro.component';
 
 
 
@@ -22,7 +23,8 @@ import { HttpClientModule} from "@angular/common/http";
     RodapeComponent,
     BannerCarrosselComponent,
     ListaJogosComponent,
-    LoginComponent
+    LoginComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,
