@@ -1,0 +1,32 @@
+package teste.site.senai;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class TesteAutomatizado {
+	
+	private WebDriver driver;
+	
+	
+	
+	@Before
+	public void ConfigurarTeste(){
+		System.setProperty("webdriver.chrome.driver", "C:\\Projeto\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();	
+	}
+	
+
+	@Test
+	public void testeNavegabilidade(){
+		driver.get("https://informatica.sp.senai.br/");
+		driver.findElement(By.id("Busca1_txtFiltro")).sendKeys("Excel");
+		driver.findElement(By.id("Busca1_btnBusca")).click();
+		
+		
+	}
+	
+}
