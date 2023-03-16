@@ -12,6 +12,11 @@ namespace Projeto_BackEnd.Classes
 
         public string? razaoSocial {get; set;}
 
+        public override float CalcularImposto(float rendimento)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool ValidarCNPJ(string cnpj)
         {
             throw new NotImplementedException();

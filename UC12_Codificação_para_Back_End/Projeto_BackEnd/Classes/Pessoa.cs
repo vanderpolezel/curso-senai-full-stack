@@ -6,7 +6,7 @@ using Projeto_BackEnd;
 
 namespace Projeto_BackEnd.Classes
 {
-    public class Pessoa : IPessoa
+    public abstract class Pessoa : IPessoa
     {   
         public string? nome {get; set;}
 
@@ -14,7 +14,7 @@ namespace Projeto_BackEnd.Classes
 
         public float? rendimento {get; set;}
 
-        public float CalcularImposto(float rendimento)
+        public abstract float CalcularImposto(float rendimento)
         {
             //throw new NotImplementeException();
         }

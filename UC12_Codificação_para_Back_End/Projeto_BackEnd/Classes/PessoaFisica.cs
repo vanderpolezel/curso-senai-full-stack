@@ -12,6 +12,10 @@ namespace Projeto_BackEnd.Classes
 
         public DateTime dataNas {get; set;}
 
+        public override float CalcularImposto(float rendimento)
+        {
+            throw new NotImplementedException();
+        }
 
         public bool ValidarDataNasc(DateTime dataNasc)
         {
