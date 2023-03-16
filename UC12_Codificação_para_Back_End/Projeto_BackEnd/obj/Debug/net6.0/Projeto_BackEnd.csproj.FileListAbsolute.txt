@@ -1,0 +1,5 @@
+C:\Projeto_Senai\curso-senai-full-stack\UC12_Codificação_para_Back_End\Projeto_BackEnd\obj\Debug\net6.0\Projeto_BackEnd.csproj.AssemblyReference.cache
+C:\Projeto_Senai\curso-senai-full-stack\UC12_Codificação_para_Back_End\Projeto_BackEnd\obj\Debug\net6.0\Projeto_BackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projeto_Senai\curso-senai-full-stack\UC12_Codificação_para_Back_End\Projeto_BackEnd\obj\Debug\net6.0\Projeto_BackEnd.AssemblyInfoInputs.cache
+C:\Projeto_Senai\curso-senai-full-stack\UC12_Codificação_para_Back_End\Projeto_BackEnd\obj\Debug\net6.0\Projeto_BackEnd.AssemblyInfo.cs
+C:\Projeto_Senai\curso-senai-full-stack\UC12_Codificação_para_Back_End\Projeto_BackEnd\obj\Debug\net6.0\Projeto_BackEnd.csproj.CoreCompileInputs.cache
