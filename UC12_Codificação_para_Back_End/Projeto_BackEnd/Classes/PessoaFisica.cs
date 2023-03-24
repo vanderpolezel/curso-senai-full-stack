@@ -37,9 +37,33 @@ namespace Projeto_BackEnd.Classes
 
         }
 
-        public bool ValidarDataNasc(DateTime dataNasc)
+        public bool ValidarDataNasc(string dataNasc)
+        // Validar a maioridade da data de nascimento
         {
-            throw new NotImplementedException();
+            if (DateTime.TryParse(dataNasc, out DateTime dataConvertida))
+            {
+            DateTime dataAtual = DateTime.Today;
+
+            double anos = (dataNas - dataAtual).TotalDays / 365;
+
+            Console.WriteLine(anos);
+
+            if(anos >= 18) 
+            {
+                return true;
+            }
+
+            return false;
+
         }
+
+            public bool ValidarDataNasc(string dataNasc) 
+    {
+
+        if (DateTime.TryParse(dataNasc, out DateTime dataConvertida));
+
+
+        throw new NotImplementedException();
+    }
     }
 }
