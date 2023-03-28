@@ -44,3 +44,23 @@ namespace Projeto_BackEnd.Classes
         }
     }
 }
+
+string? opcao = Console.ReadLine();
+//Console.writeLine($"Voce digitou: {opcao}");
+
+switch (opcao)
+{
+    case "1":
+    // chama o menu PJ
+        break;
+    case "2":
+    // chama o menu PF
+        break;
+    case "0":
+    // sai do menu
+        break;
+    
+    default:
+        // digite o valor correto:
+        break;
+}
