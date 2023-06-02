@@ -12,9 +12,55 @@ namespace Projeto_BackEnd.Classes
 
         public string? razaoSocial {get; set;}
 
+        public override float CalcularImposto(float rendimento)
+        {   
+             if(rendimento <= 1500)
+            {
+                float resultado = rendimento * .03f;
+                return 0;
+            } else if(rendimento > 1500 && rendimento <= 3500)
+            {
+                float resultado = rendimento * 0.02f;
+                return resultado;
+
+            } else if(rendimento > 3500 && rendimento <= 6000)
+            {
+                float resultado = rendimento * 0.07f;
+                return resultado;
+
+            } else (rendimento > 1500 && rendimento <= 6000)
+            {
+                 float resultado = rendimento * 0.09f;
+                return resultado;
+                
+            }
+
+            throw new NotImplementedException();
+        }
+
         public bool ValidarCNPJ(string cnpj)
         {
             throw new NotImplementedException();
         }
     }
+}
+
+string? opcao = Console.ReadLine();
+//Console.writeLine($"Voce digitou: {opcao}");
+
+switch (opcao)
+{
+    case "1":
+    // chama o menu PJ
+        break;
+    case "2":
+    // chama o menu PF
+        break;
+    case "0":
+    // sai do menu
+        break;
+    
+    default:
+        // digite o valor correto:
+        break;
 }
