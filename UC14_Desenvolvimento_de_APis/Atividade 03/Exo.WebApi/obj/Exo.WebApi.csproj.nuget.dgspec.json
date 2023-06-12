@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\curso-senai-full-stack\\UC14_Desenvolvimento_de_APis\\Atividade 03\\Exo.WebApi\\Exo.WebApi.csproj": {}
+    "c:\\curso-senai-full-stack\\UC14_Desenvolvimento_de_APis\\Atividade 03\\Exo.WebApi\\Exo.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\curso-senai-full-stack\\UC14_Desenvolvimento_de_APis\\Atividade 03\\Exo.WebApi\\Exo.WebApi.csproj": {
+    "c:\\curso-senai-full-stack\\UC14_Desenvolvimento_de_APis\\Atividade 03\\Exo.WebApi\\Exo.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\curso-senai-full-stack\\UC14_Desenvolvimento_de_APis\\Atividade 03\\Exo.WebApi\\Exo.WebApi.csproj",
+        "projectUniqueName": "c:\\curso-senai-full-stack\\UC14_Desenvolvimento_de_APis\\Atividade 03\\Exo.WebApi\\Exo.WebApi.csproj",
         "projectName": "Exo.WebApi",
-        "projectPath": "C:\\curso-senai-full-stack\\UC14_Desenvolvimento_de_APis\\Atividade 03\\Exo.WebApi\\Exo.WebApi.csproj",
+        "projectPath": "c:\\curso-senai-full-stack\\UC14_Desenvolvimento_de_APis\\Atividade 03\\Exo.WebApi\\Exo.WebApi.csproj",
         "packagesPath": "C:\\Users\\TI\\.nuget\\packages\\",
-        "outputPath": "C:\\curso-senai-full-stack\\UC14_Desenvolvimento_de_APis\\Atividade 03\\Exo.WebApi\\obj\\",
+        "outputPath": "c:\\curso-senai-full-stack\\UC14_Desenvolvimento_de_APis\\Atividade 03\\Exo.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TI\\AppData\\Roaming\\NuGet\\NuGet.Config",
