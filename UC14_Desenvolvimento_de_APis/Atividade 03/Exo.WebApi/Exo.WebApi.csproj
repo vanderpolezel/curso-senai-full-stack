@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3"/>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.0"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0"/>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.1"/>
+  </ItemGroup>
+using Exo.WebApi.Models;
+using Microsoft.EntityFrameworkCore;
+using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
+namespace Exo.WebApi.Contexts
+{
+public class ExoContext : DbContext
+{
+public ExoContext()
+{ 
+}
+public ExoContext(DbContextOptions<ExoContext> options) : 
+base(options)
+{
+}
+protected override void OnConfiguring(DbContextOptionsBuilder
+optionsBuilder)
+{
+if(!optionsBuilder.IsConfigured)
+{
+// Essa string de conexão depende da SUA máquina.
+optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;"
++ "Database=ExoApi;Trusted_Connection=True;");
+// Exemplo 1 de string de conexão:
+// User
+ID=sa;Password=admin;Server=localhost;Database=ExoApi;-
+// + Trusted_Connection=False;
+// Exemplo 2 de string de conexão:
+// 
+Server=localhost\\SQLEXPRESS;Database=ExoApi;Trusted_Connection=True;
+}
+}
+public DbSet<Projeto> Projetos { get; set; }
+}
+}

@@ -1,0 +1,7 @@
+C:\curso-senai-full-stack\UC14_Desenvolvimento_de_APis\Atividade 03\Exo.WebApi\obj\Debug\net6.0\Exo.WebApi.csproj.AssemblyReference.cache
+C:\curso-senai-full-stack\UC14_Desenvolvimento_de_APis\Atividade 03\Exo.WebApi\obj\Debug\net6.0\Exo.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\curso-senai-full-stack\UC14_Desenvolvimento_de_APis\Atividade 03\Exo.WebApi\obj\Debug\net6.0\Exo.WebApi.AssemblyInfoInputs.cache
+C:\curso-senai-full-stack\UC14_Desenvolvimento_de_APis\Atividade 03\Exo.WebApi\obj\Debug\net6.0\Exo.WebApi.AssemblyInfo.cs
+C:\curso-senai-full-stack\UC14_Desenvolvimento_de_APis\Atividade 03\Exo.WebApi\obj\Debug\net6.0\Exo.WebApi.csproj.CoreCompileInputs.cache
+C:\curso-senai-full-stack\UC14_Desenvolvimento_de_APis\Atividade 03\Exo.WebApi\obj\Debug\net6.0\Exo.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\curso-senai-full-stack\UC14_Desenvolvimento_de_APis\Atividade 03\Exo.WebApi\obj\Debug\net6.0\Exo.WebApi.MvcApplicationPartsAssemblyInfo.cache
